@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VolumeViewController.h
 //  TestViewController
 //
 //  Created by Byhkalo Konstantyn on 30.09.15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)buttonPressed:(id)sender;
+@interface VolumeViewController : UIViewController
 
 @end
-

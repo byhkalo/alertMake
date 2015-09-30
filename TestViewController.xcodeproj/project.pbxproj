@@ -15,6 +15,7 @@
 		2AADF04C1BBC251700053901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AADF04A1BBC251700053901 /* LaunchScreen.storyboard */; };
 		2AADF0571BBC251700053901 /* TestViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AADF0561BBC251700053901 /* TestViewControllerTests.m */; };
 		2AADF0621BBC251700053901 /* TestViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AADF0611BBC251700053901 /* TestViewControllerUITests.m */; };
+		2AADF0711BBC269F00053901 /* VolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AADF0701BBC269F00053901 /* VolumeViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2AADF05D1BBC251700053901 /* TestViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AADF0611BBC251700053901 /* TestViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerUITests.m; sourceTree = "<group>"; };
 		2AADF0631BBC251700053901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AADF06F1BBC269F00053901 /* VolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeViewController.h; sourceTree = "<group>"; };
+		2AADF0701BBC269F00053901 /* VolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2AADF0401BBC251700053901 /* AppDelegate.m */,
 				2AADF0421BBC251700053901 /* ViewController.h */,
 				2AADF0431BBC251700053901 /* ViewController.m */,
+				2AADF06F1BBC269F00053901 /* VolumeViewController.h */,
+				2AADF0701BBC269F00053901 /* VolumeViewController.m */,
 				2AADF0451BBC251700053901 /* Main.storyboard */,
 				2AADF0481BBC251700053901 /* Assets.xcassets */,
 				2AADF04A1BBC251700053901 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AADF0711BBC269F00053901 /* VolumeViewController.m in Sources */,
 				2AADF0441BBC251700053901 /* ViewController.m in Sources */,
 				2AADF0411BBC251700053901 /* AppDelegate.m in Sources */,
 				2AADF03E1BBC251700053901 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ByhkaloKonstantyn.TestViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ByhkaloKonstantyn.TestViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
